@@ -68,7 +68,7 @@ def main():
 
         # Details
         url="https://github.com/colav/UkuPacha",
-        #scripts=['bin/ukupacha_sql2json', 'bin/ukupacha_sql2mongodb'],
+        # scripts=['bin/ukupacha_sql2json', 'bin/ukupacha_sql2mongodb'],
         #
         license="BSD",
 
@@ -88,8 +88,8 @@ def main():
             'pymongo>=3.12.0',
             'tqdm',
             'SQLAlchemy',
-            'pygraphviz'
-            'blockdiag==2.0.1'
+            'pygraphviz',
+            'blockdiag>=3.0.0'
         ],
     )
 
